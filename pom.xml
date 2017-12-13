@@ -23,13 +23,13 @@
 </project>
 <distributionManagement>
   <repository>
-     <id>deployment</id>
-     <name>Internal Releases</name>
-     <url>http://192.168.1.11:8090/nexus/content/repositories/releases/</url>
+    <id>deployment</id>
+    <name>Internal Releases</name>
+    <url>http://192.168.112.176:8090/nexus%2D2.11.4%2D01/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>http://192.168.1.11:8090/nexus/content/repositories/snapshots/</url>
+     </url>http://192.168.112.176:8090/nexus%2D2.11.4%2D01/content/repositories/releases/</url>
   </snapshotRepository>
-  </distributionManageme>
+  </distributionManagemet>
