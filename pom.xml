@@ -22,7 +22,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-</project>
 <distributionManagement>
   <repository>
     <id>deployment</id>
@@ -35,4 +34,4 @@
      <url>http://192.168.112.176:8090/nexus%2D2.11.4%2D01/content/repositories/snapshots/</url>
   </snapshotRepository>
   </distributionManagement>
-
+</project>  
