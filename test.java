@@ -1,3 +1,0 @@
-jdjvn
-vnskvn
-nvlkn
