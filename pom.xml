@@ -13,7 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -22,4 +21,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://192.168.112.190:8090/nexus-2.11.4-01/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://192.168.112.190/nexus-2.11.4-01/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
+  
